@@ -14,5 +14,10 @@ public class Polimorf {
         t1 = t2;
         System.out.println("t1 = " + t1.i + " t2 = " + t2.i);
         System.out.println("t1 = " + t1.getI() + " t2 = " + t2.getI());
+
+        System.out.println("t1.j = " + t1.getJ() + " t2.j = " + t2.getJ());
+
+        t2 = new Test2();
+        System.out.println("t1.j = " + t1.getJ() + " t2.j = " + t2.getJ());
     }
 }
