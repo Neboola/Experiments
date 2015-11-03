@@ -7,8 +7,9 @@ public class Rand {
 
     public static void generateRand(int n){
         for (int i = 0; i < n; i++) {
-            Random r = new Random(47);
+            Random r = new Random();
             System.out.println("Random " + r.nextInt(n));
+
         }
         System.out.println();
 
@@ -19,7 +20,7 @@ public class Rand {
         System.out.println();
 
         for (int i = 0; i < n; i++) {
-            Random r = new Random(47);
+            Random r = new Random();
             System.out.println("Random " + r.nextInt(n));
             int ri = (int)(Math.random() * n);
             System.out.println("Math.random " + ri);
