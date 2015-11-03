@@ -7,9 +7,13 @@ public class Experiments {
 
     public static void main(String[] args) throws IOException {
 
-        Polimorf.test();
+        //Polimorf.test();
 
-        sec(80);
+        //Rand.generateRand(6);
+
+        
+
+
 
 
 
