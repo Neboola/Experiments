@@ -5,17 +5,18 @@ import java.io.IOException;
  */
 public class Experiments {
 
+
     public static void main(String[] args) throws IOException {
 
-        Polimorf.test();
+        //Polimorf.test();
 
         //Rand.generateRand(6);
 
+        SubStringSearch.subStringSearch("sdfasdfa");
 
-
-
-
-
+/*
+DELETE //DELETE@
+ */
 
     }
 
@@ -23,7 +24,7 @@ public class Experiments {
         try {
             Thread.sleep(n*1000);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            //e.printStackTrace();
         }
     }
 
