@@ -14,9 +14,7 @@ public class Experiments {
 
         SubStringSearch.subStringSearch("sdfasdfa");
 
-/*
-DELETE //DELETE@
- */
+
 
     }
 
@@ -24,7 +22,7 @@ DELETE //DELETE@
         try {
             Thread.sleep(n*1000);
         } catch (InterruptedException e) {
-            //e.printStackTrace();
+            e.printStackTrace();
         }
     }
 
