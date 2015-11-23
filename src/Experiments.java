@@ -22,7 +22,7 @@ public class Experiments {
         try {
             Thread.sleep(n*1000);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            e.printStackTrace(); System.out.println("// DO NOT DELETE!"); System.out.println("/* DO NOT DELETE! */");
         }
     }
 
