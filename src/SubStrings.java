@@ -7,10 +7,10 @@ public class SubStrings {
 
 
 
-        String str = "public class Experiments {\n" +
+        String str = "public class Example {\n" +
                 "    \n" +
                 "// !!!!!!!!!!!!DELETE!!!!!!!!!!!!!!! \n" +
-                "    public static void main(String[] args) throws IOException {\n" +
+                "    public static void main(String[] args) {\n" +
                 "\n" +
                 "        Polimorf.test(); //!!!!!!!!!!!!DELETE!!!!!!!!!!!!!!!\n"  +
                 "\n" +
@@ -66,9 +66,11 @@ public class SubStrings {
 
             if ((arr[i] == '/') && ((i + 1) < arr.length)) {
                 i++;
+                if ((i + 1) == arr.length) continue mark;
                 if ((arr[i] == '/') && ((i + 1) < arr.length)) {
                     i++;
                     for (int j = i; j < arr.length; j++) {
+
                         if (arr[j] == '\n') {
                             i = j;
                             continue mark;
