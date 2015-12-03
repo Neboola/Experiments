@@ -1,19 +1,10 @@
-import java.io.IOException;
+public class Example {
 
-/**
- * Created by Neboola on 03.11.2015.
- */
-public class Experiments {
+    public static void main(String[] args) {
 
-
-    public static void main(String[] args) throws IOException {
-
-        //Polimorf.test();
-
-        //Rand.generateRand(6);
-
+        Polimorf.test();
+        Rand.generateRand(6);
         SubStringSearch.subStringSearch("sdfasdfa");
-
 
 
     }
@@ -26,4 +17,4 @@ public class Experiments {
         }
     }
 
-}
+} //
